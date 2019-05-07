@@ -1,0 +1,62 @@
+# Site settings
+title:       ENS short name reservations
+email:       nick@ens.domains
+author:      True Names
+description: "3-6 character reservation requests for ENS .eth."
+baseurl:     ""
+url:         "http://ensdomains.github.io/name-reservations/"
+excerpt_separator: "<!-- more -->"
+collections:
+  - reservations
+
+# Google analytics
+# google_analytics:
+
+# Optional features
+animated:           false
+show_related_posts: false
+show_post_footers:  false
+
+# Disqus post comments
+# (leave blank to disable Disqus)
+disqus_shortname:
+
+# Social icons
+show_social_icons: false
+github_username:
+stackoverflow_id:
+twitter_username:
+google_plus_id:
+linkedin_username:
+bitcoin_url:
+paypal_url:
+flattr_button:
+
+# Post sharing icons
+show_sharing_icons: false
+share_text: 'Share this post!'
+# Change to 'true' to enable individual icons
+share_facebook: false
+share_twitter: false
+share_googleplus: false
+share_linkedin: false
+share_digg: false
+share_tumblr: false
+share_reddit: false
+share_stumbleupon: false
+
+# Build settings
+exclude: [vendor]
+liquid:
+  error_mode: strict
+verbose: true
+markdown:     kramdown
+kramdown:
+  auto_ids: true
+  autolink: true
+  input: GFM
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+permalink:    pretty
+sass:
+  compressed: true

@@ -3,7 +3,7 @@ title:       ENS short name reservations
 email:       nick@ens.domains
 author:      True Names
 description: "3-6 character reservation requests for ENS .eth."
-baseurl:     ""
+baseurl:     "/name-reservations"
 url:         "http://ensdomains.github.io/name-reservations/"
 excerpt_separator: "<!-- more -->"
 collections:

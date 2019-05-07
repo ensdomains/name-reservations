@@ -16,9 +16,14 @@ Finally, [create a new file](https://github.com/ensdomains/name-reservations/new
 ---
 name: [requested domain]
 site: [your site]
-owner: [your Ethereum address]
+owner: "[your Ethereum address]""
+contact: [your email]
 ---
 ```
+
+Note that the owner field *must* be in quotes.
+
+The contact field is optional; specify an email address if you want to be contacted with news about your name reservation.
 
 Name this file after the DNS domain you are making the claim based on, with a suffix of `.md`.
 
@@ -28,7 +33,8 @@ For example, with the above example of `fooeth.com`, you would create a file cal
 ---
 name: foo
 site: fooeth.com
-owner: 0x6090a6e47849629b7245dfa1ca21d94cd15878ef
+owner: "0x6090a6e47849629b7245dfa1ca21d94cd15878ef"
+contact: admin@fooeth.com
 ---
 ```
 
